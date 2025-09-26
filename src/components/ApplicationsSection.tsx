@@ -12,7 +12,7 @@ const ApplicationsSection = () => {
         'Quick setup and mobility',
         'Community-scale water production'
       ],
-      stats: '18% of Bangladesh affected annually',
+      stats: '2.5M people in flood-prone areas',
       image: '/api/placeholder/400/300',
       gradient: 'from-primary to-primary-light',
     },
@@ -26,7 +26,7 @@ const ApplicationsSection = () => {
         'Tidal zone operation capability',
         'Remote monitoring systems'
       ],
-      stats: '2.5M people in coastal areas',
+      stats: '5.2M people in coastal areas',
       image: '/api/placeholder/400/300',
       gradient: 'from-water to-primary',
     },
@@ -40,7 +40,7 @@ const ApplicationsSection = () => {
         'High-altitude performance',
         'Minimal maintenance requirements'
       ],
-      stats: '40% lack reliable electricity',
+      stats: '1.8M people in hill regions',
       image: '/api/placeholder/400/300',
       gradient: 'from-secondary to-secondary-light',
     },

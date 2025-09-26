@@ -8,7 +8,7 @@ const SustainabilitySection = () => {
       title: 'Clean Water & Sanitation',
       description: 'Ensure availability and sustainable management of water and sanitation for all',
       impact: 'Direct contribution to SDG 6 through accessible clean water technology',
-      metrics: ['5,472L daily capacity', '99.9% purification', '24/7 availability'],
+      metrics: ['5,472L daily capacity', '99.9% purification', '150,000+ lives improved'],
       gradient: 'from-primary to-primary-light',
     },
     {
@@ -17,7 +17,7 @@ const SustainabilitySection = () => {
       title: 'Climate Action',
       description: 'Take urgent action to combat climate change and its impacts',
       impact: 'Solar-powered operation with zero carbon emissions during use',
-      metrics: ['300W solar power', '0 CO₂ emissions', '20hr battery backup'],
+      metrics: ['300W solar power', '0 CO₂ emissions', '145 installations'],
       gradient: 'from-secondary to-secondary-light',
     },
     {
@@ -26,7 +26,7 @@ const SustainabilitySection = () => {
       title: 'Good Health & Well-being',
       description: 'Ensure healthy lives and promote well-being for all at all ages',
       impact: 'Preventing waterborne diseases in vulnerable communities',
-      metrics: ['96.6% contaminant removal', '50,000+ lives improved', 'Disease prevention'],
+      metrics: ['96.6% contaminant removal', '150,000+ lives improved', 'Disease prevention'],
       gradient: 'from-accent to-accent-light',
     },
   ];
@@ -35,7 +35,7 @@ const SustainabilitySection = () => {
     { label: 'Carbon Footprint', value: '0 kg CO₂', description: 'During operation' },
     { label: 'Energy Source', value: '100%', description: 'Renewable solar' },
     { label: 'Water Recovery', value: '75%', description: 'Efficiency rate' },
-    { label: 'Maintenance', value: 'Minimal', description: 'Low environmental impact' },
+    { label: 'Total Installations', value: '145+', description: 'Systems deployed' },
   ];
 
   return (

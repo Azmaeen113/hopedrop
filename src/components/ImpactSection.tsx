@@ -7,7 +7,7 @@ const ImpactSection = () => {
   const stats = [
     {
       icon: Users,
-      value: 50000,
+      value: 150000,
       suffix: '+',
       label: 'Lives Improved',
       description: 'Communities across Bangladesh benefiting from clean water access',
@@ -153,17 +153,17 @@ const ImpactSection = () => {
               {
                 title: 'Flood Recovery',
                 description: 'Providing immediate clean water access to flood-affected communities in Sylhet region.',
-                impact: '15 villages served',
+                impact: '45 villages served',
               },
               {
                 title: 'Coastal Resilience',
                 description: 'Addressing saltwater intrusion in Barisal coastal areas with sustainable solutions.',
-                impact: '8,000 people helped',
+                impact: '25,000 people helped',
               },
               {
                 title: 'Remote Access',
                 description: 'Bringing clean water technology to isolated hill track communities in Chittagong.',
-                impact: '25 installations',
+                impact: '75 installations',
               },
             ].map((story, index) => (
               <div key={index} className="text-center p-4 rounded-xl hover:bg-primary/5 transition-colors duration-300">
