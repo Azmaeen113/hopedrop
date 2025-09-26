@@ -141,39 +141,6 @@ const ImpactSection = () => {
             </div>
           ))}
         </div>
-
-        {/* Impact Stories */}
-        <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-8 shadow-medium">
-          <h3 className="text-2xl font-bold text-center mb-8 text-gradient-solar">
-            Transforming Communities
-          </h3>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              {
-                title: 'Flood Recovery',
-                description: 'Providing immediate clean water access to flood-affected communities in Sylhet region.',
-                impact: '45 villages served',
-              },
-              {
-                title: 'Coastal Resilience',
-                description: 'Addressing saltwater intrusion in Barisal coastal areas with sustainable solutions.',
-                impact: '25,000 people helped',
-              },
-              {
-                title: 'Remote Access',
-                description: 'Bringing clean water technology to isolated hill track communities in Chittagong.',
-                impact: '75 installations',
-              },
-            ].map((story, index) => (
-              <div key={index} className="text-center p-4 rounded-xl hover:bg-primary/5 transition-colors duration-300">
-                <div className="text-lg font-semibold text-foreground mb-2">{story.title}</div>
-                <p className="text-muted-foreground mb-3 text-sm leading-relaxed">{story.description}</p>
-                <div className="text-primary font-semibold text-sm">{story.impact}</div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
