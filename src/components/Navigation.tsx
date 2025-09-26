@@ -36,7 +36,7 @@ const Navigation = () => {
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full overflow-hidden bg-white shadow-sm border-2 border-primary/20">
               <img 
-                src="/src/assets/HpoeDrop (2).png" 
+                src="/favicon.png" 
                 alt="HopeDrop Logo" 
                 className="w-full h-full object-cover"
               />

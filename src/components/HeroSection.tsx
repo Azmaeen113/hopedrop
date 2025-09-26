@@ -11,7 +11,7 @@ const HeroSection = () => {
         muted 
         playsInline
       >
-        <source src="/src/assets/ocean.mp4" type="video/mp4" />
+        <source src="/ocean.mp4" type="video/mp4" />
       </video>
       
       {/* Video Overlay for better text readability */}
@@ -23,7 +23,7 @@ const HeroSection = () => {
           {/* Logo at the top */}
           <div className="mb-2 animate-fade-in-up">
             <img 
-              src="/src/assets/Untitled design (11).png" 
+              src="/hopedrop-logo-main.png" 
               alt="HopeDrop Logo" 
               className="mx-auto max-w-xs h-auto"
             />
