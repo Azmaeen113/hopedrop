@@ -111,21 +111,21 @@ const ApplicationsSection = () => {
                     <div className="aspect-[4/3] rounded-xl overflow-hidden group-hover:scale-105 transition-transform duration-500">
                       {index === 0 && (
                         <img 
-                          src="/src/assets/1000035484 (1).jpg" 
+                          src="/flood-communities.jpg" 
                           alt="Flood-Affected Communities" 
                           className="w-full h-full object-cover"
                         />
                       )}
                       {index === 1 && (
                         <img 
-                          src="/src/assets/Climate-change-woman-3c7760433fe2785f8b2a3b1ea0d18992.webp" 
+                          src="/coastal-salinity.webp" 
                           alt="Coastal Areas with Salinity Issues" 
                           className="w-full h-full object-cover"
                         />
                       )}
                       {index === 2 && (
                         <img 
-                          src="/src/assets/WhatsApp Image 2025-09-26 at 17.09.18_295232ad.jpg" 
+                          src="/hill-tracks.jpg" 
                           alt="Remote Hill Track Regions" 
                           className="w-full h-full object-cover"
                         />
